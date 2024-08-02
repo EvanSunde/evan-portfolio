@@ -37,7 +37,7 @@ importers:
         specifier: ^10.4.19
         version: 10.4.19(postcss@8.4.40)
       axios:
-        specifier: ^1.7.2
+        specifier: ^1.7.3
         version: 1.7.3
       daisyui:
         specifier: ^4.11.1
