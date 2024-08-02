@@ -35,9 +35,9 @@ const CONFIG = {
         {
           title: 'Cheers AI',
           description:
-            'Online therpacytology platform with 24/7 text and call without any need for appointment using specilizly trained AI.',
+            'Online Therapy platform with 24/7 text and call without any need for appointment using specilizly trained AI.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/src/assets/media/cheers-ai.png',
           link: 'https://CheersAI.co',
         },
         {
@@ -45,7 +45,7 @@ const CONFIG = {
           description:
             'Online Appointment System with Professional Dermatologist With Low latency Video Call and Verifed report and prescription.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+            'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/src/assets/media/main%20website.png',
           link: null,
         },
         {
@@ -166,8 +166,8 @@ const CONFIG = {
   // ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: '', // medium | dev
-    username: '', // to hide blog section, keep it empty
+    source: 'dev', // medium | dev
+    username: 'evan', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
