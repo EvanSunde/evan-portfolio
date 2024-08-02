@@ -16,42 +16,13 @@ const BlogCard = ({
   blog: SanitizedBlog;
   googleAnalyticsId?: string;
 }) => {
-  // const [articles, setArticles] = useState<Article[]>([]);
-
-  // useEffect(() => {
-  //   if (blog.source === 'medium') {
-  //     getMediumPost({
-  //       user: blog.username,
-  //     }).then((res) => {
-  //       setArticles(res);
-  //     });
-  //   } else if (blog.source === 'dev') {
-  //     getDevPost({
-  //       user: blog.username,
-  //     }).then((res) => {
-  //       setArticles(res);
-  //     });
-  //   }
-  // }, [blog.source, blog.username]);
-
 
   const [articles] = useState<Article[]>([
     {
       title: "HI, I am Evan Sunde",
-      // link: "",
-      // thumbnail: "https://example.com/thumbnail1.jpg",
-      // publishedAt: 0,
       description: "I am a Software Developer with passion for problem-solving and a keen interest in Machine learning. My proficiency extends to programming languages including C, Python, JavaScript, go-lang. I am also adept at working with REST APIs, GraphQL and databases such as MySQL, PostgreSQL, and MongoDB. My skills further encompass frameworks like Django and React. I have a strong understanding of Linux and its functionalities.",
       categories: [],
     },
-    // {
-    //   title: "Hardcoded Article 2",
-    //   link: "https://example.com/article2",
-    //   thumbnail: "https://example.com/thumbnail2.jpg",
-    //   publishedAt: new Date('2023-02-01'),
-    //   description: "Description for hardcoded article 2",
-    //   categories: ["Category3", "Category4"],
-    // },
   ]);
 
   useEffect(() => {
@@ -120,7 +91,6 @@ const BlogCard = ({
         <a
           className="card shadow-lg compact bg-base-100 cursor-pointer"
           key={index}
-          // href={article.link}
           onClick={(e) => {
             e.preventDefault();
 
@@ -134,22 +104,12 @@ const BlogCard = ({
               console.error(error);
             }
 
-            // window?.open(article.link, '_blank');
           }}
         >
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col md:flex-row">
               <div className="avatar mb-5 md:mb-0 opacity-90">
-                {/* <div className="w-24 h-24 mask mask-squircle"> */}
-                  {/* <LazyImage
-                    src={article.thumbnail} */}
-                    {/* alt={'thumbnail'} */}
-                    {/* placeholder={skeleton({
-                      widthCls: 'w-full',
-                      heightCls: 'h-full',
-                      shape: '',
-                    })} */}
-                  {/* /> */}
+  
                 </div>
               </div>
               <div className="w-full">
@@ -158,11 +118,6 @@ const BlogCard = ({
                     <h2 className="font-medium text-base-content opacity-60">
                       {article.title}
                     </h2>
-                    {/* <p className="text-base-content opacity-50 text-xs">
-                      {formatDistance(article.publishedAt, new Date(), {
-                        addSuffix: true,
-                      })}
-                    </p> */}
                     <p className="mt-3 text-base-content text-opacity-60 text-sm">
                       {article.description}
                     </p>
@@ -180,7 +135,6 @@ const BlogCard = ({
                 </div>
               </div>
             </div>
-          {/* </div> */}
         // </a>
       ))
     ) : (
