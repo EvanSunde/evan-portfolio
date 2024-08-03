@@ -1,6 +1,7 @@
 import { Profile } from '../../interfaces/profile';
 import { skeleton } from '../../utils';
 import LazyImage from '../lazy-image';
+import profileavatar from '../../assets/media/evan-pfp.png';
 
 interface AvatarCardProps {
   profile: Profile | null;
@@ -47,7 +48,7 @@ const AvatarCard: React.FC<AvatarCardProps> = ({
             >
               {
                 <LazyImage
-                  src={'https://cdn.discordapp.com/attachments/862918543232991232/1248696839276986499/image.png?ex=66adc64e&is=66ac74ce&hm=fe14f72d0f82ed09fbfd715101b09ad026c469f21818891bdc9470366fdffd96&' }
+                  src={profileavatar}
                   alt={profile.name}
                   placeholder={skeleton({
                     widthCls: 'w-full',
