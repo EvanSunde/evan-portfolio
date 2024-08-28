@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['evansunde/CheersAI-backend', 'evansunde/skincare-frontend', 'evansunde/chatapp'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['EvanSunde/CheersAI-backend', 'EvanSunde/skincare-frontend', 'EvanSunde/Nephara-skincare-backend', 'EvanSunde/chatapp'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
