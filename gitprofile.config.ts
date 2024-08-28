@@ -88,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/public/Evan%20Resume.png', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Golang',
