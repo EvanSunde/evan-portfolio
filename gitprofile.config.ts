@@ -46,15 +46,15 @@ const CONFIG = {
             'Online Appointment System with Professional Dermatologist With Low latency Video Call and Verifed report and prescription.',
           imageUrl:
             'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/src/assets/media/main%20website.png',
-          link: null,
+          link: 'https://github.com/EvanSunde/Skincare-frontend',
         },
         {
           title: 'User Management System',
           description:
-            'Manage You Employee, Employee Leave, Employee Performance.',
+            'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: null,
+          link: 'https://github.com/EvanSunde/golang-backend',
         },
       ],
     },
