@@ -82,13 +82,13 @@ const CONFIG = {
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.evasunde.com.np',
+    website: 'https://www.evansunde.com.np',
     phone: '+977 986 108 3028',
     email: 'evansunde2@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/public/Evan%20Resume.png', // Empty fileUrl will hide the `Download Resume` button.
+      'https://github.com/EvanSunde/evan-portfolio/blob/main/public/Evan-Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Golang',
@@ -179,7 +179,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'halloween',
+    defaultTheme: 'pastel',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
