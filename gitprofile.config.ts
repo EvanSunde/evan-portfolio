@@ -53,8 +53,8 @@ const CONFIG = {
           description:
             'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://github.com/EvanSunde/golang-backend',
+            'https://nephara.com/src/assets/images/project/board.png',
+          link: 'https://nephara.com',
         },
       ],
     },
