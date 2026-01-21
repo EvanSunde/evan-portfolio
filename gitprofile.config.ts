@@ -49,9 +49,9 @@ const CONFIG = {
           link: 'https://github.com/EvanSunde/Skincare-frontend',
         },
         {
-          title: 'User Management System',
+          title: 'AI native Business OS System',
           description:
-            'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System',
+            'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System supercharged with AI agent',
           imageUrl:
             'https://nephara.com/src/assets/images/project/board.png',
           link: 'https://nephara.com',
@@ -88,7 +88,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/refs/heads/main/public/Evan_Sunde_Resume_balanced.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/refs/heads/main/public/EvanSunde.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Golang',
@@ -117,7 +117,7 @@ const CONFIG = {
       companyLink: 'https://cheersai.co',
     },
     {
-      company: 'Nephara-Dermatology',
+      company: 'Online-Dermatology',
       position: 'Full Stack Developer',
       companyLink: 'https://example.com',
     },
