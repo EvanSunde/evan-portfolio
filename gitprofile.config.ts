@@ -25,13 +25,21 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['EvanSunde/CheersAI-backend', 'EvanSunde/skincare-frontend', 'EvanSunde/Nephara-skincare-backend', 'EvanSunde/chatapp'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['EvanSunde/Sinodragon-cpp','EvanSunde/Sinodragon', 'EvanSunde/CheersAI-backend', 'EvanSunde/skincare-frontend', 'EvanSunde/Nephara-skincare-backend', 'EvanSunde/chatapp'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
+        {
+          title: 'AI native Business OS System',
+          description:
+            'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System supercharged with AI agent',
+          imageUrl:
+            'https://nephara.com/src/assets/images/project/board.png',
+          link: 'https://nephara.com',
+        },
         {
           title: 'Cheers AI',
           description:
@@ -47,14 +55,6 @@ const CONFIG = {
           imageUrl:
             'https://raw.githubusercontent.com/EvanSunde/evan-portfolio/main/src/assets/media/main%20website.png',
           link: 'https://github.com/EvanSunde/Skincare-frontend',
-        },
-        {
-          title: 'AI native Business OS System',
-          description:
-            'Manage Your Employee, Employee Leave, Employee Performance, Communication and Management System supercharged with AI agent',
-          imageUrl:
-            'https://nephara.com/src/assets/images/project/board.png',
-          link: 'https://nephara.com',
         },
       ],
     },
